@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Proxima Nova", Arial, Helvetica, sans-serif;
+  color: #54575a;
+}
+
+code {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+  position: relative;
+}
+
+#overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  max-width: 100%;
+  height: 100%;
+}
+
+#nav {
+  background-color: #fff;
+  min-height: 100px;
+}
+
+#hero .headline {
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 780px) {
+  #hero .headline {
+    font-size: 2rem;
+  }
+}
+
+#hero .subhead {
+  padding-top: 8rem;
+  color: #00c1de;
+}
+
+@media screen and (max-width: 780px) {
+  #hero .subhead {
+    font-size: 1.5rem;
+  }
+}
+
+.blue-divider {
+  background-color: #00c1de;
+  height: 50px;
+  position: relative;
+  z-index: 101;
+}
+
+.fa-ul {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.fa-ul i {
+  font-size: 22px;
+  color: #007ca4;
+}
+
+.fa-li {
+  text-align: center;
+}
+
+.fa-li-text {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+#form-outer {
+  background-color: #eaeff2;
+  border-radius: 4px;
+}
+
+ul.blue-arrows {
+  list-style-image: url("https://www3.impinj.com/l/818783/2019-12-18/lcd/818783/1227/blue_arrow_bullet.png");
+}
+
+#section2 {
+  color: #fff;
+  background-color: #007ca4;
+}
+
+#section2 h2 {
+  font-weight: 300;
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+#section3 h2 {
+  font-weight: 300;
+}
+
+footer {
+  background-image: url(https://www3.impinj.com/l/818783/2019-12-18/lhj/818783/1259/impinj_lp_footer_bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer nav {
+  background-color: transparent;
+}
+
+#bottom-bar {
+  background-color: #002b49;
+}
+
+#bottom-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #00a7ce;
+  border: 1px solid #00a7ce;
+  display: inline-block;
+  color: #fff;
+  border-radius: 2px;
+  padding: 9px 20px;
+  line-height: normal;
+  vertical-align: middle;
+  min-width: 200px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #00a7ce;
+  color: #00a7ce;
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 1px solid #00a7ce;
+  color: #00a7ce;
+}
+
+.btn-white:hover {
+  background-color: #00a7ce;
+  border: 1px solid #00a7ce;
+  color: #fff;
+}
+
+.btn-red {
+  background-color: #f43545;
+  border: 1px solid #f43545;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: transparent;
+  border: 1px solid #f43545;
+  color: #f43545;
+}
+/*# sourceMappingURL=lp-base-styles-ci.css.map */

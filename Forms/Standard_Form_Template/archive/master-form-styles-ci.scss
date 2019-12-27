@@ -1,0 +1,189 @@
+$lightblue: #00c1de;
+$midblue: #007ca4;
+$darkblue: #002b49;
+$bluegrey: #eaeff2;
+$grey: #54575a;
+$socialicons: #a6bbc3;
+$input-color: #a6bbc3;
+$red: #f43545;
+
+$proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
+
+#pardot-form {
+  font-family: $proxima;
+  padding: 10px;
+  max-width: 100%;
+
+  div.above-form {
+    color: $midblue;
+    p {
+      font-size: 24px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0 10px;
+    margin: 0;
+
+    &.form-field {
+      label {
+        text-align: left;
+        width: 100%;
+        background: none;
+        padding-right: 0;
+      }
+      &.required {
+        label:not(.inline) {
+          font-weight: normal;
+          &::after {
+            content: "*";
+          }
+        }
+      }
+      input,
+      textarea,
+      select {
+        font-size: 16px;
+        width: 100%;
+        background-color: $input-color;
+        padding: 10px;
+        border: none;
+        &.date {
+          background-image: none;
+        }
+      }
+    }
+    &.submit {
+      margin-left: 0;
+      text-align: center;
+      input {
+        font-size: 18px;
+        background-color: $red;
+        border: 1px solid $red;
+        color: #fff;
+        padding: 10px 30px;
+        letter-spacing: 1px;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid $red;
+          color: $red;
+        }
+      }
+    }
+  }
+  .pd-checkbox label.field-label {
+    // display: none;
+  }
+  .pd-checkbox span.value {
+    margin-left: 0;
+  }
+  .pd-checkbox input {
+    opacity: 0;
+    position: absolute;
+  }
+  .pd-checkbox input,
+  .pd-checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    margin-left: 0;
+    cursor: pointer;
+  }
+  .pd-checkbox label {
+    position: relative;
+  }
+  /* style the unchecked checkbox */
+  .pd-checkbox input + label:before {
+    content: "";
+    background: $input-color;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  /* style the checked checkbox */
+  .pd-checkbox input:checked + label:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+
+  /* hide the regular radio button */
+  .pd-radio input {
+    opacity: 0;
+    position: absolute;
+  }
+  /* position the label */
+  .pd-radio input,
+  .pd-radio label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .pd-radio label {
+    position: relative;
+    display: inline;
+  }
+
+  .pd-radio label.inline {
+    display: inline;
+  }
+
+  .pd-radio span.value {
+    margin-left: 0;
+  }
+
+  .pd-radio span.value span {
+    display: inline-block;
+  }
+
+  /* style the unchecked radio button */
+  .pd-radio input + label:before {
+    content: "";
+    background: $input-color;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    line-height: 15px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .pd-radio input + label:before {
+    border-radius: 50%;
+  }
+  /* style the selected radio button */
+  .pd-radio input:checked + label:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #fff;
+    background-color: $red;
+  }
+
+  .pd-radio input:focus + label {
+    outline: 1px solid #ddd; /* focus style */
+  }
+
+  .pd-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+  }
+}
