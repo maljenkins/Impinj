@@ -4,6 +4,7 @@ $darkblue: #002b49;
 $bluegrey: #eaeff2;
 $grey: #54575a;
 $socialicons: #a6bbc3;
+$red: #f43545;
 
 $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
 
@@ -13,6 +14,12 @@ body {
   font-size: 16px;
   font-family: $proxima;
   color: $grey;
+}
+
+a,
+a:visited,
+a:focus {
+  color: $midblue;
 }
 
 code {
@@ -57,17 +64,18 @@ header {
 
 .blue-divider {
   background-color: $lightblue;
-  height: 50px;
   position: relative;
   z-index: 101;
+  min-height: 50px;
 }
 
 .fa-ul {
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 0;
   i {
     font-size: 22px;
-    color: $midblue;
+    color: $darkblue;
   }
 }
 .fa-li {
@@ -75,6 +83,8 @@ header {
 }
 
 .fa-li-text {
+  padding-top: 3px;
+  font-size: 18px;
   padding-left: 5px;
   display: inline-block;
 }
@@ -94,10 +104,6 @@ ul.blue-arrows {
   h2 {
     font-weight: 300;
   }
-}
-
-.round-image {
-  border-radius: 50%;
 }
 
 #section3 {

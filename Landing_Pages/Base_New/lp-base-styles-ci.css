@@ -6,6 +6,12 @@ body {
   color: #54575a;
 }
 
+a,
+a:visited,
+a:focus {
+  color: #007ca4;
+}
+
 code {
   position: absolute;
   top: 0;
@@ -53,19 +59,20 @@ header {
 
 .blue-divider {
   background-color: #00c1de;
-  height: 50px;
   position: relative;
   z-index: 101;
+  min-height: 50px;
 }
 
 .fa-ul {
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 0;
 }
 
 .fa-ul i {
   font-size: 22px;
-  color: #007ca4;
+  color: #002b49;
 }
 
 .fa-li {
@@ -73,6 +80,8 @@ header {
 }
 
 .fa-li-text {
+  padding-top: 3px;
+  font-size: 18px;
   padding-left: 5px;
   display: inline-block;
 }
@@ -93,10 +102,6 @@ ul.blue-arrows {
 
 #section2 h2 {
   font-weight: 300;
-}
-
-.round-image {
-  border-radius: 50%;
 }
 
 #section3 h2 {
