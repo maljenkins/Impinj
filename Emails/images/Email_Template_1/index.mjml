@@ -1,0 +1,618 @@
+<mjml>
+  <mj-head>
+    <mj-title>%%subject%%</mj-title>
+
+    <!-- Set A Custom Webfont -->
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" />
+
+
+    <mj-attributes>
+      <!-- Spacing Defaults -->
+      <mj-all padding="0px" />
+
+      <mj-section padding-left="10px" padding-right="10px" />
+      <mj-column padding="10px" />
+      <mj-button padding-top="15px" padding-bottom="15px" />
+      <mj-divider padding-top="10px" padding-bottom="10px" />
+      <mj-text padding="5px" />
+      <mj-navbar-link padding-left="10px" padding-right="10px" />
+
+
+      <!-- Handle Pardot Regions -->
+      <mj-section css-class="pardot-repeat-remove" />
+      <mj-navbar-link css-class="pardot-region" />
+      <mj-image rel="pardot-region" />
+      <mj-button css-class="pardot-region" />
+
+
+      <!-- Background Colors -->
+      <mj-body background-color="#fff" />
+
+      <!-- Default Styles for All Elements -->
+      <mj-all color="#54575a" font-family="'Open Sans',Arial, Helvetica, sans-serif" font-size="16px" line-height="21px" />
+
+      <!-- Custom Classes Colors -->
+      <mj-class name="greyText" color="#54575a" />
+      <mj-class name="greyBG" background-color="#f5f5f5" />
+      <mj-class name="blueBG" background-color="#002b49" />
+      <mj-class name="darkgreyText" color="#54575a" />
+      <mj-class name="darkgreyBG" background-color="#d9d9d9" />
+
+      <!-- Other Custom Classes -->
+      <mj-class name="h1" color="#002b49" font-weight="600" font-size="32px" line-height="36px" />
+      <mj-class name="h2" font-weight="600" font-size="24px" line-height="30px" />
+      <mj-class name="footerHeadline" font-size="48px" line-height="56px" font-weight="300" />
+
+      <!-- Image Styling *** NOTE: By Default All Images Are Set To Fluid/Responsive And Have A URL Of #, Manually Adjust Static Images and Remove Links With href="" *** -->
+      <mj-image align="center" fluid-on-mobile="true" href="#" />
+
+
+      <!-- Button Styles -->
+      <mj-button href="#" text-transform="uppercase" border-radius="2px" background-color="#00a7ce" color="#fff" />
+
+
+      <!-- Nav Styles -->
+      <mj-navbar-link color="#007ca4" text-transform="none" />
+
+
+
+    </mj-attributes>
+
+    <!-- Styles Place In Head -->
+    <mj-style>
+      a {
+        color: #007ca4;
+        text-decoration: none;
+      }
+
+      a:link {
+        color: #007ca4;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #007ca4;
+        text-decoration: none;
+      }
+
+      a.greyLink {
+        color: #54575a !important;
+        text-decoration: none !important;
+      }
+
+      a.whiteLink {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+    </mj-style>
+
+
+    <!-- Media Queries -->
+
+    <mj-style>
+      @media (max-width:480px) {
+      td.mobileCenter > div {
+      width: 100% !important;
+      text-align: center !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section padding-top="10px" padding-bottom="10px" padding-right="0px">
+
+
+
+      <mj-column width="33%" css-class="mobileCenter">
+
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xbq/818783/2623/impinj_partner_network_logo_trans.png" width="200px" fluid-on-mobile="false" />
+
+      </mj-column>
+      <mj-column width="66%" padding-right="0px" vertical-align="bottom">
+        <mj-navbar align="right" css-class="mobileCenter">
+          <mj-navbar-link>
+            Solutions
+          </mj-navbar-link>
+          <mj-navbar-link>
+            Platform
+          </mj-navbar-link>
+          <mj-navbar-link>
+            About Us
+          </mj-navbar-link>
+          <mj-navbar-link padding-right="0px">
+            Contact Us
+          </mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding-left="0px" padding-right="0px">
+      <mj-column padding="0px">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xcz/818783/2659/impinj_newsletter_header_image.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" background-url="https://storage.pardot.com/818783/2779/impinj_newsletter_title_bg_wide_updated.png" background-repeat="no-repeat">
+      <mj-group>
+        <mj-column width="50%" padding-top="5px" padding-bottom="5px">
+          <mj-text color="#fff" padding="0px" align="left">
+            <div class="pardot-region">Partner Newsletter</div>
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%" padding-top="5px" padding-bottom="5px">
+          <mj-text mj-class="greyText" padding="0px" align="right">
+            <div class="pardot-region">January 2020</div>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="greyBG">
+      <mj-column>
+        <mj-text mj-class="h1">
+          <div class="pardot-region">H1 duis autem vel eum iriure dolor</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br /><br />
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero inline link color et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</div>
+        </mj-text>
+        <mj-button align="left" padding-left="5px">
+          LOREM IPSUM
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="greyBG">
+      <mj-column width="20%">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xcv/818783/2657/impinj_notification_callout_icon.png" padding-left="5px" height="72px" width="72px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="80%" vertical-align="middle">
+        <mj-text mj-class="h2" padding-top="14px">
+          <div class="pardot-region">H2 lorem ipsum dolor sit amet</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG">
+      <mj-column padding-top="0px">
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.</div>
+        </mj-text>
+        <mj-table padding="5px 15px">
+          <tr>
+            <td style="color: #00a19b;" width="20">&#10003;</td>
+            <td>Dignissim qui blandit praesent luptatum zzril delenit</td>
+          </tr>
+          <tr>
+            <td style="color: #00a19b;" width="20">&#10003;</td>
+            <td>Dignissim qui blandit praesent luptatum zzril delenit</td>
+          </tr>
+          <tr>
+            <td style="color: #00a19b;" width="20">&#10003;</td>
+            <td>Dignissim qui blandit praesent luptatum zzril delenit</td>
+          </tr>
+          <tr>
+            <td style="color: #00a19b;" width="20">&#10003;</td>
+            <td>Dignissim qui blandit praesent luptatum zzril delenit</td>
+          </tr>
+        </mj-table>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG">
+      <mj-column>
+        <mj-image src="https://placehold.it/540x200" />
+        <mj-text mj-class="h2">
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br /><br />
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero inline link color et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" direction="rtl" padding-left="0px" padding-right="0px">
+      <mj-column width="50%" padding="0px">
+        <mj-image src="https://placehold.it/300x450" padding="0px" />
+      </mj-column>
+      <mj-column width="50%" padding-left="20px" padding-right="20px">
+        <mj-text mj-class="h2">
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="blueBG">
+      <mj-column width="33%">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xd6/818783/2669/impinj_calender_icon_blue_100x100.png" width="100px" height="100px" align="center" fluid-on-mobile="false" />
+        <mj-text color="#fff" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a class="lightblueLink" href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #67cfdf !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xd8/818783/2671/impinj_briefcase_icon_blue_100x100.png" width="100px" height="100px" align="center" fluid-on-mobile="false" />
+        <mj-text color="#fff" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a class="lightblueLink" href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #67cfdf !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xdb/818783/2667/impinj_speed_icon_blue_100x100.png" width="100px" height="100px" align="center" fluid-on-mobile="false" />
+        <mj-text color="#fff" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a class="lightblueLink" href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #67cfdf !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" padding-left="0px">
+      <mj-column padding-left="0px">
+        <mj-text color="#fff" font-weight="bold" padding-left="0px" padding-top="20px">
+          <div class="pardot-region" style="display: inline-block;background-color: #007ca4; padding-left:20px; padding-right: 10px;padding-top: 5px; padding-bottom: 5px;">Section Tag</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG">
+      <mj-column width="50%">
+        <mj-text mj-class="h2">
+          <div class="pardot-region">First Article Headline</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text mj-class="h2">
+          <div class="pardot-region">Second Article Should be Similar Length</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea consequat.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="darkgreyBG" padding-top="10px" padding-bottom="10px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.it/100x100" width="100px" height="100px" fluid-on-mobile="false" />
+        <mj-text mj-class="darkgreyText" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.it/100x100" width="100px" height="100px" fluid-on-mobile="false" />
+        <mj-text mj-class="darkgreyText" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.it/100x100" width="100px" height="100px" fluid-on-mobile="false" />
+        <mj-text mj-class="darkgreyText" font-weight="bold" align="center">
+          <div class="pardot-region">Short description Lorem ipsum dolor</div>
+        </mj-text>
+        <mj-text align="center">
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" padding-left="0px" padding-right="0px">
+      <mj-column width="50%" padding="0px">
+        <mj-image src="https://placehold.it/300x450" padding="0px" />
+      </mj-column>
+      <mj-column width="50%" padding-left="20px" padding-right="20px">
+        <mj-text mj-class="h2">
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rarr;</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" background-url="https://www3.impinj.com/l/818783/2020-01-11/xcj/818783/2647/impinj_share_this_background.png" background-repeat="no-repeat" direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://www3.impinj.com/l/818783/2020-01-11/xcl/818783/2649/impinj_share_this_image.png" width="155px" height="129px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text mj-class="h2 darkgreyText" font-weight="bold">
+          <div class="pardot-region">Share This!</div>
+        </mj-text>
+        <mj-text mj-class="darkgreyText">
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</div>
+        </mj-text>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG">
+      <mj-column width="25%">
+        <mj-image src="https://placehold.it/100x100" padding-top="10px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci. <mj-text>
+              <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                    <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rArr;</font>
+                  </span></a></div>
+            </mj-text>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="greyBG">
+      <mj-column width="25%">
+        <mj-image src="https://placehold.it/100x100" padding-top="10px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci. <mj-text>
+              <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                    <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rArr;</font>
+                  </span></a></div>
+            </mj-text>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="greyBG">
+      <mj-column width="25%">
+        <mj-image src="https://placehold.it/100x100" padding-top="10px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci. <mj-text>
+              <div class="pardot-region"><a href="#" style="color: #007ca4 !important; text-decoration: none !important;"><span style="color: #007ca4 !important; text-decoration: none !important;">
+                    <font style="color: #007ca4 !important; text-decoration: none !important;">Editable link &rArr;</font>
+                  </span></a></div>
+            </mj-text>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column padding-top="0px" padding-bottom="0px">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="greyBG" background-url="https://www3.impinj.com/l/818783/2020-01-11/xdd/818783/2673/inpinj_email_footer_bg.png" background-repeat="no-repeat">
+
+      <mj-column width="50%">
+        <mj-text mj-class="footerHeadline">
+          <div class="pardot-region">Thank You.</div>
+        </mj-text>
+        <mj-text>
+          <div class="pardot-region">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</div>
+        </mj-text>
+        <mj-button align="left" padding-left="5px">
+          Need Generic CTA
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-spacer height="1px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="blueBG">
+      <mj-column>
+        <mj-text color="#fff" font-weight="bold">
+          <div class="pardot-region">RESOURCES</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="blueBG">
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xdq/818783/2683/impinj_calendar_icon_small_blue_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Events Calendar</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xdj/818783/2677/impinj_rss_icon_blue_small_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Impinj Blog</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xdn/818783/2685/impinj_help_icon_blue_small_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Support</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="blueBG">
+
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xdl/818783/2679/impinj_money_icon_blue_small_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Deal Registration</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xds/818783/2681/impinj_scholar_icon_blue_small_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Training</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%" padding-top="0px" padding-bottom="0px">
+        <mj-text color="#fff" font-size="14px" line-height="20px" padding-top="0px" padding-bottom="0px">
+          <div class="pardot-region">
+            <p style="margin: 0px; padding-top:2px; padding-bottom: 2px;"><img align="left" src="https://www3.impinj.com/l/818783/2020-01-11/xdg/818783/2675/impinj_person_icon_blue_small_20x20.png" width="20" height="20" style="padding-right:5px" /><a class="whiteLink" href="#" style="color: #FFFFFF !important; text-decoration: none !important;"><span style="color: #FFFFFF !important; text-decoration: none !important;">
+                  <font style="color: #FFFFFF !important; text-decoration: none !important;">Partner Portal</font>
+                </span></a></p>
+          </div>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section mj-class="blueBG">
+      <mj-column>
+        <mj-divider border-color="#264b64" border-width="2px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="blueBG">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="23px" mode="horizontal" align="right">
+          <mj-social-element name="twitter-noshare" background-color="transparent" src="https://www3.impinj.com/l/818783/2020-01-11/xbz/818783/2631/impinj_twitter_icon_email_white.png" href="https://twitter.com/impinj" padding="2px">
+          </mj-social-element>
+          <mj-social-element name="linkedin-noshare" background-color="transparent" src="https://www3.impinj.com/l/818783/2020-01-11/xbx/818783/2629/impinj_linkedin_icon_email_white.png" href="https://www.linkedin.com/company/impinj" padding="2px">
+          </mj-social-element>
+          <mj-social-element name="facebook-noshare" background-color="transparent" src="https://www3.impinj.com/l/818783/2020-01-11/xbs/818783/2627/impinj_facebook_icon_email_white.png" href="https://www.facebook.com/Impinj" padding="2px">
+          </mj-social-element>
+          <mj-social-element name="youtube" background-color="transparent" src="https://www3.impinj.com/l/818783/2020-01-11/xbv/818783/2625/impinj_youtube_icon_email_white.png" href="https://www.youtube.com/impinj" padding="2px">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="50%">
+        <mj-text font-size="12px">
+          <div class="pardot-region">&copy; %%current_year%% Impinj, Inc. All rights reserved.</div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="12px" align="right">
+          <div class="pardot-region"><a class="greyLink" href="%%unsubscribe%%" style="color: #54575a !important; text-decoration: none !important;"><span style="color: #54575a !important; text-decoration: none !important;">
+                <font style="color: #54575a !important; text-decoration: none !important;">Unsubscribe</font>
+              </span></a> | <a class="greyLink" href="https://www.impinj.com/privacy-policy/" style="color: #54575a !important; text-decoration: none !important;"><span style="color: #54575a !important; text-decoration: none !important;">
+                <font style="color: #54575a !important; text-decoration: none !important;">Privacy Policy</font>
+              </span></a</div> </mj-text> </mj-column> </mj-section> <mj-section>
+              <mj-column>
+                <mj-text font-size="12px">
+                  <div class="pardot-region">Impinj, the Impinj logo and Impinj products referenced in this message are trademarks or registered trademarks of Impinj, Inc - see <a class="greyLink" href="www.impinj.com/trademarks" style="color: #54575a !important; text-decoration: none !important;"><span style="color: #54575a !important; text-decoration: none !important;">
+                        <font style="color: #54575a !important; text-decoration: none !important;">www.impinj.com/trademarks</font>
+                      </span></a>. Other company, product or service names may be trademarks or service marks of others.</div>
+                </mj-text>
+              </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
