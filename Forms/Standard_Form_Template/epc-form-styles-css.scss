@@ -43,7 +43,8 @@ $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 250px;
+  width: 100%;
+  max-width: 400px;
   margin-bottom: 20px;
 }
 
@@ -105,6 +106,7 @@ $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
 #pardot-form {
   p.pd-checkbox {
     padding: 20px;
+    padding-top: 0px;
     position: relative;
   }
   .pd-checkbox span.value {
@@ -135,6 +137,12 @@ $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
     padding-top: 0px;
     padding-right: 40px;
     line-height: 16px;
+    font-weight: bold;
+  }
+
+  .pd-checkbox span.description {
+    margin-right: 50px;
+    margin-left: 0px;
   }
 
   /* style the unchecked checkbox */
@@ -153,7 +161,7 @@ $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
     line-height: 12px;
     position: absolute;
     right: 20px;
-    bottom: 10px;
+    bottom: -12px;
   }
   /* style the checked checkbox */
   .pd-checkbox input:checked + label:after {
@@ -186,6 +194,6 @@ $proxima: "Proxima Nova", Arial, Helvetica, sans-serif;
   }
 }
 
-#pardot-form p.pd-checkbox:nth-of-type(2n) {
+#pardot-form p.pd-checkbox:nth-of-type(1n) {
   background-color: #eaeef0;
 }
