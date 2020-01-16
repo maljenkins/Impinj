@@ -33,7 +33,13 @@
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 90%;
+  width: 100%;
+}
+
+#pardot-form p.form-field.col-md-6 input,
+#pardot-form p.form-field.col-md-6 textarea,
+#pardot-form p.form-field.col-md-6 select {
+  width: 98%;
 }
 
 #pardot-form select {
@@ -46,7 +52,7 @@
 }
 
 #pardot-form p label {
-  width: 90%;
+  width: 100%;
   color: #333333;
   font-weight: normal;
   padding-top: 4px;
@@ -59,7 +65,7 @@
   background-color: #f43545;
   border: 1px solid #f43545;
   color: #fff;
-  padding: 10px 30px;
+  padding: 10px 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -88,6 +94,7 @@
 #pardot-form p label {
   float: none;
   text-align: left;
+  padding-top: 15px;
 }
 
 #pardot-form span.value {
@@ -138,7 +145,7 @@
 #pardot-form .pd-checkbox input + label:before {
   content: "";
   -webkit-box-sizing: unset;
-          box-sizing: unset;
+  box-sizing: unset;
   background: #a6bbc3;
   border: 2px solid #a6bbc3;
   display: inline-block !important;
@@ -193,7 +200,7 @@
 #pardot-form .pd-radio input + label:before {
   content: "";
   -webkit-box-sizing: unset;
-          box-sizing: unset;
+  box-sizing: unset;
   background: #a6bbc3;
   border: 2px solid #a6bbc3;
   display: inline-block;
@@ -230,7 +237,7 @@
 #pardot-form p.errors {
   color: #fff;
   background-color: #f43545;
-  width: 90%;
+  width: 100%;
 }
 
 #pardot-form p.error label.field-label {
@@ -241,4 +248,10 @@
 #pardot-form p.error.no-label {
   display: none;
 }
+
+#pardot-form p.pd-select {
+  width: 100%;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=master-form-styles-ci.css.map */
