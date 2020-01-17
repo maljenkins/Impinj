@@ -53,8 +53,16 @@
     footer {
       background-image: url(https://www3.impinj.com/l/818783/2019-12-26/pqb/818783/1675/impinj_lp_footer_bg_white.png) !important;
     }
+
+    #pardot-form p.Endpoint_Products span.value {
+  display:flex;
+  }
+  #pardot-form p.Endpoint_Products label {
+  padding-top: 0px;
+  }
     
     </style>
+
 
   </head>
   <body>
@@ -264,7 +272,16 @@
       crossorigin="anonymous"
     ></script>
 
-
+<!-- Force the Endpoint Products Field Into Columns -->
+<script type="text/javascript">
+  $( document ).ready(function() {
+  $("p.Endpoint_Products span.value").addClass("row");
+     $("p.Endpoint_Products span.value span:not(:last)").each(function(){
+          $(this).addClass("col-md-3");
+     });
+     $("p.Endpoint_Products span.value span").last().addClass("col-md-12");
+  });
+  </script>
 
     
   </body>
