@@ -134,7 +134,7 @@ footer {
   text-transform: uppercase;
 }
 
-.btn-primary {
+a.btn-primary {
   background-color: #00a7ce;
   border: 1px solid #00a7ce;
   display: inline-block;
@@ -150,7 +150,7 @@ footer {
   &:hover {
     background-color: transparent;
     border: 1px solid #00a7ce;
-    color: #00a7ce;
+    color: #00a7ce !important;
   }
 }
 

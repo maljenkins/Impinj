@@ -132,7 +132,7 @@ footer nav {
   text-transform: uppercase;
 }
 
-.btn-primary {
+a.btn-primary {
   background-color: #00a7ce;
   border: 1px solid #00a7ce;
   display: inline-block;
@@ -147,10 +147,10 @@ footer nav {
   font-weight: normal;
 }
 
-.btn-primary:hover {
+a.btn-primary:hover {
   background-color: transparent;
   border: 1px solid #00a7ce;
-  color: #00a7ce;
+  color: #00a7ce !important;
 }
 
 .btn-white {
