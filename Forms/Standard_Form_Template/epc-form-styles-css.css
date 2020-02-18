@@ -199,7 +199,12 @@
   display: none;
 }
 
-#pardot-form p.pd-checkbox:nth-of-type(1n) {
+#pardot-form p.pd-checkbox:nth-of-type(odd) {
   background-color: #eaeef0;
+}
+
+#pardot-form p.opt-out {
+  padding-top: 15px !important;
+  padding-left: 20px !important;
 }
 /*# sourceMappingURL=epc-form-styles-css.css.map */
